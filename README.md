@@ -14,38 +14,7 @@ A frontend e-commerce website developed as an **individual project** using only 
 
 ---
 
-## 📸 Website Screenshots
-
-### 🏠 Home Page
-
-![Home Page](./assets/screenshots/Screenshot%2856%29.png)
-
-![Home Page](./assets/screenshots/Screenshot%2863%29.png)
-
-![Home Page](./assets/screenshots/Screenshot%2864%29.png)
-
-![Home Page](./assets/screenshots/Screenshot%2865%29.png)
-
-### 🛍️ Products Page
-
-![Products Page](./assets/screenshots/Screenshot%2857%29.png)
-
-### 📦 Orders Page
-
-![Orders Page](./assets/screenshots/Screenshot%2858%29.png)
-
-### 👤 Profile Page
-
-![Profile Page](./assets/screenshots/Screenshot%2859%29.png)
-
-### 🛒 Cart Page
-
-![Cart Page](./assets/screenshots/Screenshot%2861%29.png)
-
-![Cart Page](./assets/screenshots/Screenshot%2862%29.png)
-
-![Cart Page](./assets/screenshots/Screenshot%2860%29.png)
-
+![alt text](image.png)
 ---
 
 ### ✨ Developed By
