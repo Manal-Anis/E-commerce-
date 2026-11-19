@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product UI</title>
+
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.inp {
+    width: 350px;
+    height: 40px;
+    border: 1px solid #0D6EFD;
+    padding-left: 10px;
+}
+
+.sear {
+    height: 40px;
+    width: 140px;
+    border: 1px solid #0D6EFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+}
+
+.searchbtn {
+    height: 40px;
+    width: 100px;
+    background: #0D6EFD;
+    color: white;
+    border: none;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    align-items: center;
+}
+
+/* WRAPPER */
+.wrapper {
+    width: 1100px;
+    margin: 20px auto;
+}
+
+/* PRODUCT TOP */
+.container {
+    display: flex;
+    gap: 25px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.product-img {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.details {
+    flex: 1;
+}
+
+.title {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.stock {
+    color: green;
+}
+
+.price-box {
+    background: #fff3e6;
+    padding: 12px;
+    margin: 15px 0;
+    color: red;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+}
+
+.supplier {
+    width: 240px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+/* BUTTONS */
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-blue {
+    background: #0D6EFD;
+    color: white;
+}
+
+.btn-gray {
+    background: #eee;
+}
+
+/* SECOND SECTION */
+.product-container {
+    display: flex;
+    gap: 40px;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.product-left {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-img {
+    width: 140px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+
+.product-right {
+    width: 80%;
+}
+
+.options {
+    margin: 15px 0;
+}
+body {
+      font-family: Arial, sans-serif;
+      color: #000; /* text color dark */
+    }
+
+    .slider-box { 
+      position: absolute; 
+      background: #fff; 
+      border: 2px solid #007bff; 
+      padding: 10px; 
+      display: none; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+      z-index: 1000; 
+      min-width: 150px; 
+    }
+    .slider-box p { margin: 5px 0; cursor: pointer; padding: 5px; color: #000; }
+    .slider-box p:hover { background-color: #f0f0f0; }
+
+.options label {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.options select {
+    margin-right: 20px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTONS FIX */
+.buttons {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.buy {
+    background: #0D6EFD;
+    color: white;
+}
+
+.cart {
+    background: #f1f3f5;
+}
+
+.save {
+    background: #f1f3f5;
+}
+
+/* TABS FIX */
+.tabs {
+    display: flex;
+    gap: 25px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.tabs span {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.tabs .active {
+    border-bottom: 2px solid #0D6EFD;
+    color: #0D6EFD;
+}
+
+/* DEALS */
+.deals {
+    display: flex;
+    background: #eef1f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+/* LEFT SIDE */
+.deal-left {
+    width: 20%;
+}
+
+.deal-left h3 {
+    margin-bottom: 5px;
+}
+
+.timer {
+    display: flex;
+    margin-top: 10px;
+}
+
+.timer div {
+    background: #606060;
+    color: white;
+    padding: 8px 10px;
+    margin-right: 6px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* RIGHT SIDE PRODUCTS */
+.deal-products {
+    display: flex;
+    width: 80%;
+}
+
+/* CARD FIX */
+.card {
+    flex: 1;
+    background: white;
+    text-align: center;
+    padding: 15px 10px;
+    border-right: 1px solid #eee;
+}
+
+.card:last-child {
+    border-right: none;
+}
+
+.card img {
+    width: 70px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card span {
+    background: #ffe5e5;
+    color: red;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.navbarp{
+    margin-left: 90px;
+    
+}
+.navbarp ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+/* SUBSCRIBE */
+.subscribe {
+    text-align: center;
+    padding: 30px;
+    background: #eef1f5;
+    margin-top: 30px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background: white;
+    margin-top: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    color: gray;
+    margin: 5px 0;
+}
+
+/* BOTTOM FOOTER */
+.secfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background: #dee2e7;
+}
+</style>
+
+</head>
+<body>
+  <div class="main">
+    <div class="head">
+      <div class="header">
+        <div class="logo">
+          <a href="web-main.html">
+            <img src="logo-colored.png" alt="">
+          </a>
+        </div>
+        <div class="search">
+          <input class="inp" type="text" placeholder="Search">
+          <div class="sear" id="allCategoryBtn">All Category</div>
+          <button class="searchbtn">Search</button>
+        </div>
+      
+            <div class="navbarp">
+  <ul>
+    <li id="profileIcon"><img src="Profile.svg" alt=""></li>
+    <li id="messageIcon"><img src="Message.svg" alt=""></li>
+    <li id="ordersIcon"><img src="Orders.svg" alt=""></li>
+    <li id="cartIcon"><img src="Cart.svg" alt=""></li>
+  </ul>
+</div>
+          
+        <hr>
+      </div>
+      <hr>
+      <div class="nav">
+        <div class="left">
+          <ul>
+            <li>☰</li>
+            <li id="allCategoryNavBtn">All category</li>
+            <li>Hot offers</li>
+            <li>Gift boxes</li>
+            <li>Projects</li>
+            <li>Menu itms</li>
+            <li>Help <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector.png" alt=""> </li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li id="langBtn">English,USD <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector.png" alt=""> </li>
+            <li id="shipBtn">Ship to <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector.png" alt=""></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+<div class="wrapper">
+
+<!-- TOP SECTION -->
+<div class="container">
+
+    <div class="product-img">
+        <img src="assets/assets/Layout/alibaba/Image/cloth/2 1.png">
+    </div>
+
+    <div class="details">
+        <div class="stock">✔ In stock</div>
+        <div class="title">Winter Jacket</div>
+         <div class="buttons">
+        <button class="cart">Add to cart</button>
+</div>
+        <div class="price-box">
+            $85 <span class="old-price">$120</span>
+        </div>
+
+        <p>Material: Polyester</p>
+        <p>Type: Outerwear</p>
+    </div>
+
+    <div class="supplier">
+        <h4>Supplier</h4>
+        <p>Germany</p>
+
+        <button class="btn btn-blue">Send inquiry</button>
+        <button class="btn btn-gray">Profile</button>
+    </div>
+
+</div>
+
+<!-- SECOND -->
+<div class="product-container">
+    <div class="product-left">
+        <img src="assets/assets/Layout/alibaba/Image/cloth/image 24.png" class="main-img">
+    </div>
+
+    <div class="product-right">
+        <div class="options">
+            <label>Color:</label>
+            <select><option>Black</option></select>
+
+            <label>Option:</label>
+            <select><option>Standard</option></select>
+        </div>
+
+        <div class="buttons">
+            <button class="buy">Buy now</button>
+            <button class="cart">Add to cart</button>
+        </div>
+
+        <div class="tabs">
+            <span class="active">Description</span>
+            <span>Reviews</span>
+        </div>
+
+        <p>Thick insulated jacket for cold weather.</p>
+
+        <table>
+            <tr><td>Condition</td><td>New</td></tr>
+        </table>
+    </div>
+</div>
+
+<!-- DEALS -->
+<div class="deals">
+    <div class="deal-left">
+        <h3>Deals</h3>
+        <div class="timer">
+            <div>04</div>
+            <div>13</div>
+        </div>
+    </div>
+
+    <div class="deal-products">
+        <div class="card">
+            <img src="assets/assets/Image/tech/8.png">
+            <p>Watch</p>
+            <span>-25%</span>
+        </div>
+
+        <div class="card">
+            <img src="assets/assets/Image/tech/image 34.png">
+            <p>Laptop</p>
+            <span>-15%</span>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- subscribe  -->
+<div class="subscribe">
+    <h5>subscribe on our newsletter</h5>
+    <p style="color: grey;">Get daily news on upcoming offers from many suppliers all over the worls </p>
+<div>
+    <input type="email" name="" id="" placeholder="Email">
+    <button class="btn btn-primary">Subscribe</button>
+    
+</div>
+
+
+
+    <!-- footer -->
+<div class="footer">
+    <section class="1strow">
+    <img src="logo-colored.png" alt="">
+    <p>Best information about the company <br>gies here but now lorem ipsum is</p>
+    </section>
+    <section class="secrow">
+    <ul><b>About</b> <br> <br>
+    <li>About Us</li>
+    <li>Find Store</li>
+    <li>Categories</li>
+    <li>Blogs</li>
+    </ul>
+    </section>
+    <section class="thirdrow">
+        <ul><b>Partnership</b> <br> <br>
+        <li>About Us</li>
+        <li>Find store</li>
+        <li>Categories</li>
+        <li>Blogs</li>
+        </ul>
+    </section>
+    <section class="fourthrow"> 
+        <ul><b>Information </b> <br> <br>
+        <li>Help Center</li>
+        <li>Money refund</li>
+        <li>Shipping</li>
+        <li>Contact Us</li>
+        </ul>
+    </section>
+    <section class="fifthrow"> 
+        <ul><b>For users</b> <br> <br>
+         <li>Login</li>
+         <li>Register</li>
+         <li>Settings</li>
+         <li>My Orders</li>
+         </ul>
+    </section>
+    <section class="sixthrow">
+        <img src="assets/assets/Layout/Misc/Group.png" alt=""><br>
+        <img src="assets/assets/Layout/Misc/market-button.png" alt="">
+    
+        
+    
+</div>
+<div class="secfooter">
+            <p>@2023 ecommerce</p>
+            <p >English</p>
+        </div>
+
+        
+    </div>
+<div id="categorySlider" class="slider-box" style="display:none; position:absolute; background:#fff; border:1px solid #ccc; padding:10px;">
+      <p>All Category</p>
+      <p>Electronics</p>
+      <p>Fashion</p>
+    </div>
+    <div id="langSlider" class="slider-box" style="display:none; position:absolute; background:#fff; border:1px solid #ccc; padding:10px;">
+      <p>English, USD</p>
+      <p>Urdu, PKR</p>
+    </div>
+  </div>
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // ===== NAVBAR BUTTONS =====
+    const categoryBtn = document.getElementById("allCategoryNavBtn");
+    const categorySlider = document.getElementById("categorySlider");
+    const langBtn = document.getElementById("langBtn");
+    const langSlider = document.getElementById("langSlider");
+    const hotOffersBtn = document.querySelector(".nav .left ul li:nth-child(3)");
+    const giftBoxBtn = document.querySelector(".nav .left ul li:nth-child(4)");
+    const cartIcon = document.getElementById("cartIcon");
+
+    // ===== CART REDIRECT =====
+    if(cartIcon) {
+      cartIcon.onclick = () => {
+        window.location.href = "cart.html";
+      }
+    }
+    const profileIcon = document.getElementById("profileIcon");
+
+// ===== PROFILE REDIRECT =====
+if (profileIcon) {
+  profileIcon.onclick = () => {
+    window.location.href = "profile.html";
+  };
+}
+
+    // ===== HOT OFFERS =====
+    if (hotOffersBtn) {
+      hotOffersBtn.onclick = () => {
+        window.location.href = "listview.html";
+      };
+    }
+
+    // ===== GIFT BOXES =====
+    if (giftBoxBtn) {
+      giftBoxBtn.onclick = () => {
+        window.location.href = "product.html";
+      };
+    }
+
+    // ===== CATEGORY SLIDER =====
+    if (categoryBtn && categorySlider) {
+      categoryBtn.onclick = (e) => {
+        e.stopPropagation();
+        categorySlider.style.display = categorySlider.style.display === "block" ? "none" : "block";
+        const rect = categoryBtn.getBoundingClientRect();
+        categorySlider.style.top = rect.bottom + "px";
+        categorySlider.style.left = rect.left + "px";
+      };
+
+      const catOptions = categorySlider.querySelectorAll("p");
+      catOptions.forEach(opt => {
+        opt.onclick = (e) => {
+          e.stopPropagation();
+          categoryBtn.textContent = opt.textContent;
+          categorySlider.style.display = "none";
+        };
+      });
+    }
+
+    const addToCartButtons = document.querySelectorAll(".cart");
+
+// ===== ADD TO CART REDIRECT =====
+addToCartButtons.forEach(btn => {
+  btn.onclick = () => {
+    window.location.href = "cart.html";
+  };
+});
+
+    // ===== LANGUAGE SLIDER =====
+    if (langBtn && langSlider) {
+      langBtn.onclick = (e) => {
+        e.stopPropagation();
+        langSlider.style.display = langSlider.style.display === "block" ? "none" : "block";
+        const rect = langBtn.getBoundingClientRect();
+        langSlider.style.top = rect.bottom + "px";
+        langSlider.style.left = rect.left + "px";
+      };
+
+      const langOptions = langSlider.querySelectorAll("p");
+      langOptions.forEach(opt => {
+        opt.onclick = (e) => {
+          e.stopPropagation();
+          langBtn.textContent = opt.textContent;
+          langSlider.style.display = "none";
+        };
+      });
+    }
+
+    // ===== CLICK OUTSIDE CLOSE =====
+    document.addEventListener("click", () => {
+      if (categorySlider) categorySlider.style.display = "none";
+      if (langSlider) langSlider.style.display = "none";
+    });
+  });
+  </script>
+</body>
+</html>

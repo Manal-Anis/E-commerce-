@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="web-main.css">
+</head>
+<body>
+  <div class="main">
+    <div class="head">
+      <div class="header">
+        <div class="logo">
+          <a href="web-main.html">
+            <img src="logo-colored.png" alt="">
+          </a>
+        </div>
+        <div class="search">
+          <input class="inp" type="text" placeholder="Search">
+          <div class="sear" id="allCategoryBtn">All Category</div>
+          <button class="searchbtn">Search</button>
+        </div>
+        <div class="navbarp">
+  <ul>
+    <li id="profileIcon"><img src="Profile.svg" alt=""></li>
+    <li id="messageIcon"><img src="Message.svg" alt=""></li>
+    <li id="ordersIcon"><img src="Orders.svg" alt=""></li>
+    <li id="cartIcon"><img src="Cart.svg" alt=""></li>
+  </ul>
+</div>
+        <hr>
+      </div>
+      <hr>
+      <div class="nav">
+        <div class="left">
+          <ul>
+            <li>☰</li>
+            <li id="allCategoryNavBtn">All category</li>
+            <li>Hot offers</li>
+            <li>Gift boxes</li>
+            <li>Projects</li>
+            <li>Menu itms</li>
+            <li>Help <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector.png" alt=""> </li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li id="langBtn">English,USD <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector.png" alt=""> </li>
+            <li id="shipBtn">Ship to <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector.png" alt=""></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+            <div class="listview">
+                <div class="sidebar">
+                    <div class="ulic">
+                        <ul>Category </ul>
+                        <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="">
+                    </div>
+                    <li>Mobile accessories</li>
+                    <li> Electronics</li>
+                    <li>Smartphones</li>
+                    <li>Modern tech</li>
+                    <li style="color: blue;">See all</li>
+                    <hr>
+                    <div class="ulic">
+                        <ul>Brands</ul>
+                        <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="">
+                    </div>
+                    <li><input type="checkbox" name="" id="checkbox">Samsung </li>
+                    <li><input type="checkbox" name="" id="checkbox">Apple</li>
+                    <li><input type="checkbox" name="" id="checkbox">Huawei</li>
+                    <li><input type="checkbox" name="" id="checkbox">Pocco</li>
+                    <li><input type="checkbox" name="" id="checkbox">Lenovo</li>
+                    <li style="color: blue;">See all</li>
+                    <hr>
+                    <div class="ulic">
+                        <ul>Features</ul>
+                        <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="">
+                    </div>
+                    <li><input type="checkbox" name="" id="checkbox">Metallic </li>
+                    <li><input type="checkbox" name="" id="checkbox">Plastic cover</li>
+                    <li><input type="checkbox" name="" id="checkbox">8GB Ram</li>
+                    <li><input type="checkbox" name="" id="checkbox">Super power</li>
+                    <li><input type="checkbox" name="" id="checkbox">Large memory</li>
+                    <li style="color: blue;">See all</li>
+                    <hr>
+                    <h6>Price range</h6>
+
+                    <input type="range" id="volume" name="volume" min="0" max="99999" step="10" value="50">
+                    <div class="range">
+                    <div class="min">
+                    <label  for="">Min</label>
+                    <input class="mini" type="number" name="" id="" placeholder="0">
+                    </div>
+                    
+                    <div class="max">
+                    <label for="">Max</label>
+                    <input class="maxi" type="number" name="" id="" placeholder="99999">
+                    </div>
+                </div>
+                    <button style="color:blue;background-color: white; margin-top: 10px; width: 210px; border: 1px solid lightgray;border-radius: 6px;">Apply</button>
+                    <hr>checkbox
+                    <div class="ulic">
+                        <ul>condition</ul>
+                        <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="">
+                    </div>
+                    <li><input type="checkbox" name="" id="checkbox">Any</li>
+                    <li><input type="checkbox" name="" id="checkbox">Refurbished</li>
+                    <li><input type="checkbox" name="" id="checkbox">Brand new</li>
+                    <li><input type="checkbox" name="" id="checkbox">Old items</li>
+                    <hr>
+                    <div class="ulic">
+                        <ul>Ratings</ul>
+                        <img src="assebackgts/assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="">
+                    </div>
+
+                    <!-- ⭐ Rating 1 -->
+                    <div class="star-rating">
+                        <input type="radio" id="r1_star5" name="rating1" value="5" checked />
+                        <label for="r1_star5"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r1_star4" name="rating1" value="4" />
+                        <label for="r1_star4" style="margin-bottom: 10px;margin-left: 3px;">★</label>
+
+                        <input type="radio" id="r1_star3" name="rating1" value="3" />
+                        <label for="r1_star3"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r1_star2" name="rating1" value="2" />
+                        <label for="r1_star2"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r1_star1" name="rating1" value="1" />
+                        <label for="r1_star1"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+                    </div>
+
+                    <!-- ⭐ Rating 2 -->
+                    <div class="star-rating">
+                        <input type="radio" id="r2_star5" name="rating2" value="5" />
+                        <label for="r2_star5"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r2_star4" name="rating2" value="4" checked />
+                        <label for="r2_star4"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r2_star3" name="rating2" value="3" />
+                        <label for="r2_star3"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r2_star2" name="rating2" value="2" />
+                        <label for="r2_star2"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r2_star1" name="rating2" value="1" />
+                        <label for="r2_star1"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+                    </div>
+
+                    <!-- ⭐ Rating 3 -->
+                    <div class="star-rating">
+                        <input type="radio" id="r3_star5" name="rating3" value="5" />
+                        <label for="r3_star5"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r3_star4" name="rating3" value="4" />
+                        <label for="r3_star4"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r3_star3" name="rating3" value="3" checked />
+                        <label for="r3_star3"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r3_star2" name="rating3" value="2" />
+                        <label for="r3_star2"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+
+                        <input type="radio" id="r3_star1" name="rating3" value="1" />
+                        <label for="r3_star1"style="margin-bottom: 10px;margin-left:3px;" >★</label>
+                    </div>
+
+                </div>
+
+                <div class="lisst">
+                    <div class="listone">
+                        <div class="lft">
+                            <img src="assets/assets/Image/tech/image 33.png" alt="">
+                        </div>
+                        <div class="rgt">
+                            <p style="color: black;">Canon Camera EOS 2000,Black 10x zoom</p>
+                            <h6>$998.00 <del style="color: lightgrey;">$1128.00</del></h6>
+                            <ul>
+                                <li class="star-rating">
+                                    <p style="color: orangered; padding: 0;margin: 0;">7.5</p>
+                                    <input type="radio" id="star5-c1" name="rating-c1" value="5" /><label for="star5-c1"
+                                        title="5 stars">★</label>
+                                    <input type="radio" id="star4-c1" name="rating-c1" value="4" checked /><label
+                                        for="star4-c1" title="4 stars">★</label>
+                                    <input type="radio" id="star3-c1" name="rating-c1" value="3" /><label for="star3-c1"
+                                        title="3 stars">★</label>
+                                    <input type="radio" id="star2-c1" name="rating-c1" value="2" /><label for="star2-c1"
+                                        title="2 stars">★</label>
+                                    <input type="radio" id="star1-c1" name="rating-c1" value="1" /><label for="star1-c1"
+                                        title="1 star">★</label>
+
+                                </li>
+                                <li>154 orders</li>
+                                <li style="color: green;">Free Shipping</li>
+                            </ul>
+                            <p style="color: gray;padding: 0;margin: 0;">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit <br> Ipsam, sint non? Ab natus sunt itaque. Sapiente, ipsum. <br> Expedita, numquam earum.</p>
+                            <p class="view-details" style="color: blue; cursor: pointer;">view details</p>
+                        </div>
+                    </div>
+
+
+                    <div class="listone">
+                        <div class="lft">
+                            <img src="assets/assets/Image/tech/image 23.png" alt="">
+                        </div>
+                        <div class="rgt">
+                            <p style="color: black;">Canon Camera EOS 2000,Black 10x zoom</p>
+                            <h6>$998.00 <del style="color: lightgrey;">$1128.00</del></h6>
+                            <ul>
+                                <li class="star-rating">
+                                    <p style="color: orangered; padding: 0;margin: 0;">7.5</p>
+                                    <input type="radio" id="star5-c2" name="rating-c2" value="5" /><label for="star5-c2"
+                                        title="5 stars">★</label>
+                                    <input type="radio" id="star4-c2" name="rating-c2" value="4" checked /><label
+                                        for="star4-c2" title="4 stars">★</label>
+                                    <input type="radio" id="star3-c2" name="rating-c2" value="3" /><label for="star3-c2"
+                                        title="3 stars">★</label>
+                                    <input type="radio" id="star2-c2" name="rating-c2" value="2" /><label for="star2-c2"
+                                        title="2 stars">★</label>
+                                    <input type="radio" id="star1-c2" name="rating-c2" value="1" /><label for="star1-c2"
+                                        title="1 star">★</label>
+                                </li>
+                                <li>154 orders</li>
+                                <li style="color: green;">Free Shipping</li>
+                            </ul>
+                            <p style="color: gray;padding: 0;margin: 0;">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit <br> Ipsam, sint non? Ab natus sunt itaque. Sapiente, ipsum. <br> Expedita, numquam earum.
+                            </p>
+                            <p class="view-details" style="color: blue; cursor: pointer;">view details</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="listone">
+                        <div class="lft">
+                            <img src="assets/assets/Image/tech/image 32.png" alt="">
+                        </div>
+                        <div class="rgt">
+                            <p style="color: black;">Canon Camera EOS 2000,Black 10x zoom</p>
+                            <h6>$998.00 <del style="color: lightgrey;">$1128.00</del></h6>
+                            <ul>
+                                <li class="star-rating">
+                                    <p style="color: orangered; padding: 0;margin: 0;">7.5</p>
+                                    <input type="radio" id="star5-c3" name="rating-c3" value="5" /><label for="star5-c3"
+                                        title="5 stars">★</label>
+                                    <input type="radio" id="star4-c3" name="rating-c3" value="4" checked /><label
+                                        for="star4-c3" title="4 stars">★</label>
+                                    <input type="radio" id="star3-c3" name="rating-c3" value="3" /><label for="star3-c3"
+                                        title="3 stars">★</label>
+                                    <input type="radio" id="star2-c3" name="rating-c3" value="2" /><label for="star2-c3"
+                                        title="2 stars">★</label>
+                                    <input type="radio" id="star1-c3" name="rating-c3" value="1" /><label for="star1-c3"
+                                        title="1 star">★</label>
+
+                                </li>
+                                <li>154 orders</li>
+                                <li style="color: green;">Free Shipping</li>
+                            </ul>
+                            <p style="color: gray;padding: 0;margin: 0;">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit <br> Ipsam, sint non? Ab natus sunt itaque. Sapiente, ipsum. <br> Expedita, numquam earum.
+                            </p>
+                            <p class="view-details" style="color: blue; cursor: pointer;">view details</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="listone">
+                        <div class="lft">
+                            <img src="assets/assets/Image/tech/image 34.png" alt="">
+                        </div>
+                        <div class="rgt">
+                            <p style="color: black;">Canon Camera EOS 2000,Black 10x zoom</p>
+                            <h6>$998.00 <del style="color: lightgrey;">$1128.00</del></h6>
+                            <ul>
+                                <li class="star-rating">
+                                    <p style="color: orangered; padding: 0;margin: 0;">7.5</p>
+                                    <input type="radio" id="star5-c4" name="rating-c4" value="5" /><label for="star5-c4"
+                                        title="5 stars">★</label>
+                                    <input type="radio" id="star4-c4" name="rating-c4" value="4" checked /><label
+                                        for="star4-c4" title="4 stars">★</label>
+                                    <input type="radio" id="star3-c4" name="rating-c4" value="3" /><label for="star3-c4"
+                                        title="3 stars">★</label>
+                                    <input type="radio" id="star2-c4" name="rating-c4" value="2" /><label for="star2-c4"
+                                        title="2 stars">★</label>
+                                    <input type="radio" id="star1-c4" name="rating-c4" value="1" /><label for="star1-c4"
+                                        title="1 star">★</label>
+
+                                </li>
+                                <li>154 orders</li>
+                                <li style="color: green;">Free Shipping</li>
+                            </ul>
+                            <p style="color: gray;padding: 0;margin: 0;">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit <br> Ipsam, sint non? Ab natus sunt itaque. Sapiente, ipsum. <br> Expedita, numquam earum.</p>
+                            <p class="view-details" style="color: blue; cursor: pointer;">view details</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="listone">
+                        <div class="lft">
+                            <img src="assets/assets/Image/tech/8.png" alt="">
+                        </div>
+                        <div class="rgt">
+                            <p style="color: black;">Canon Camera EOS 2000,Black 10x zoom</p>
+                            <h6>$998.00 <del style="color: lightgrey;">$1128.00</del></h6>
+                            <ul>
+                                <li class="star-rating">
+                                    <p style="color: orangered; padding: 0;margin: 0;">7.5</p>
+                                    <input type="radio" id="star5-c5" name="rating-c5" value="5" /><label for="star5-c5"
+                                        title="5 stars">★</label>
+                                    <input type="radio" id="star4-c5" name="rating-c5" value="4" checked /><label
+                                        for="star4-c5" title="4 stars">★</label>
+                                    <input type="radio" id="star3-c5" name="rating-c5" value="3" /><label for="star3-c5"
+                                        title="3 stars">★</label>
+                                    <input type="radio" id="star2-c5" name="rating-c5" value="2" /><label for="star2-c5"
+                                        title="2 stars">★</label>
+                                    <input type="radio" id="star1-c5" name="rating-c5" value="1" /><label
+                                        for="star1-c5">★</label>
+                                <li>154 orders</li>
+                                <li style="color: green;">Free Shipping</li>
+                            </ul>
+                            <p style="color: gray;padding: 0;margin: 0;">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit <br> Ipsam, sint non? Ab natus sunt itaque. Sapiente, ipsum. <br> Expedita, numquam earum.</p>
+                            <p class="view-details" style="color: blue; cursor: pointer;">view details</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="listone">
+                        <div class="lft">
+                            <img src="assets/assets/Image/tech/image 86.png" alt="">
+                        </div>
+                        <div class="rgt">
+                            <p style="color: black;">Canon Camera EOS 2000,Black 10x zoom</p>
+                            <h6>$998.00 <del style="color: lightgrey;">$1128.00</del></h6>
+                            <ul>
+                                <li class="star-rating">
+                                    <p style="color: orangered; padding: 0;margin: 0;">7.5</p>
+                                    <input type="radio" id="star5-c6" name="rating-c6" value="5" /><label for="star5-c6"
+                                        title="5 stars">★</label>
+                                    <input type="radio" id="star4-c6" name="rating-c6" value="4" checked /><label
+                                        for="star4-c6" title="4 stars">★</label>
+                                    <input type="radio" id="star3-c6" name="rating-c6" value="3" /><label for="star3-c6"
+                                        title="3 stars">★</label>
+                                    <input type="radio" id="star2-c6" name="rating-c6" value="2" /><label for="star2-c6"
+                                        title="2 stars">★</label>
+                                    <input type="radio" id="star1-c6" name="rating-c6" value="1" /><label for="star1-c6"
+                                        title="1 star">★</label>
+
+                                </li>
+                                <li>154 orders</li>
+                                <li style="color: green;">Free Shipping</li>
+                            </ul>
+                            <p style="color: gray;padding: 0;margin: 0;">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit <br> Ipsam, sint non? Ab natus sunt itaque. Sapiente, ipsum. <br> Expedita, numquam earum.</p>
+                            <p class="view-details" style="color: blue; cursor: pointer;">view details</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- subscribe  -->
+        <div class="subscribe">
+            <h5>subscribe on our newsletter</h5>
+            <p style="color: grey;">Get daily news on upcoming offers from many suppliers all over the worls </p>
+            <div>
+                <input type="email" name="" id="" placeholder="Email">
+                <button class="btn btn-primary">Subscribe</button>
+
+            </div>
+
+
+
+            <!-- footer -->
+            <div class="footer">
+                <section class="1strow">
+                    <img src="logo-colored.png" alt="">
+                    <p>Best information about the company <br>gies here but now lorem ipsum is</p>
+                </section>
+                <section class="secrow">
+                    <ul><b>About</b> <br> <br>
+                        <li>About Us</li>
+                        <li>Find Store</li>
+                        <li>Categories</li>
+                        <li>Blogs</li>
+                    </ul>
+                </section>
+                <section class="thirdrow">
+                    <ul><b>Partnership</b> <br> <br>
+                        <li>About Us</li>
+                        <li>Find store</li>
+                        <li>Categories</li>
+                        <li>Blogs</li>
+                    </ul>
+                </section>
+                <section class="fourthrow">
+                    <ul><b>Information </b> <br> <br>
+                        <li>Help Center</li>
+                        <li>Money refund</li>
+                        <li>Shipping</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </section>
+                <section class="fifthrow">
+                    <ul><b>For users</b> <br> <br>
+                        <li>Login</li>
+                        <li>Register</li>
+                        <li>Settings</li>
+                        <li>My Orders</li>
+                    </ul>
+                </section>
+                <section class="sixthrow">
+                    <img src="assets/assets/Layout/Misc/Group.png" alt=""><br>
+                    <img src="assets/assets/Layout/Misc/market-button.png" alt="">
+
+
+                </section>
+            </div>
+            <div class="secfooter">
+                <p>@2023 ecommerce</p>
+                <p>English</p>
+            </div>
+
+
+        </div>
+        <div id="categorySlider" class="slider-box" style="display:none; position:absolute; background:#fff; border:1px solid #ccc; padding:10px;">
+      <p>All Category</p>
+      <p>Electronics</p>
+      <p>Fashion</p>
+    </div>
+    <div id="langSlider" class="slider-box" style="display:none; position:absolute; background:#fff; border:1px solid #ccc; padding:10px;">
+      <p>English, USD</p>
+      <p>Urdu, PKR</p>
+    </div>
+  </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+    // ===== NAVBAR BUTTONS =====
+    const categoryBtn = document.getElementById("allCategoryNavBtn");
+    const categorySlider = document.getElementById("categorySlider");
+    const langBtn = document.getElementById("langBtn");
+    const langSlider = document.getElementById("langSlider");
+    const hotOffersBtn = document.querySelector(".nav .left ul li:nth-child(3)");
+    const giftBoxBtn = document.querySelector(".nav .left ul li:nth-child(4)");
+    const cartIcon = document.getElementById("cartIcon");
+
+    // ===== CART REDIRECT =====
+    if(cartIcon) {
+      cartIcon.onclick = () => {
+        window.location.href = "cart.html";
+      }
+    }
+    const profileIcon = document.getElementById("profileIcon");
+
+// ===== PROFILE REDIRECT =====
+if (profileIcon) {
+  profileIcon.onclick = () => {
+    window.location.href = "profile.html";
+  };
+}
+
+const viewButtons = document.querySelectorAll(".view-details");
+
+viewButtons.forEach(btn => {
+  btn.onclick = () => {
+    window.location.href = "product.html";
+  };
+});
+    // ===== HOT OFFERS =====
+    if (hotOffersBtn) {
+      hotOffersBtn.onclick = () => {
+        window.location.href = "listview.html";
+      };
+    }
+
+    // ===== GIFT BOXES =====
+    if (giftBoxBtn) {
+      giftBoxBtn.onclick = () => {
+        window.location.href = "product.html";
+      };
+    }
+
+    // ===== CATEGORY SLIDER =====
+    if (categoryBtn && categorySlider) {
+      categoryBtn.onclick = (e) => {
+        e.stopPropagation();
+        categorySlider.style.display = categorySlider.style.display === "block" ? "none" : "block";
+        const rect = categoryBtn.getBoundingClientRect();
+        categorySlider.style.top = rect.bottom + "px";
+        categorySlider.style.left = rect.left + "px";
+      };
+
+      const catOptions = categorySlider.querySelectorAll("p");
+      catOptions.forEach(opt => {
+        opt.onclick = (e) => {
+          e.stopPropagation();
+          categoryBtn.textContent = opt.textContent;
+          categorySlider.style.display = "none";
+        };
+      });
+    }
+
+    // ===== LANGUAGE SLIDER =====
+    if (langBtn && langSlider) {
+      langBtn.onclick = (e) => {
+        e.stopPropagation();
+        langSlider.style.display = langSlider.style.display === "block" ? "none" : "block";
+        const rect = langBtn.getBoundingClientRect();
+        langSlider.style.top = rect.bottom + "px";
+        langSlider.style.left = rect.left + "px";
+      };
+
+      const langOptions = langSlider.querySelectorAll("p");
+      langOptions.forEach(opt => {
+        opt.onclick = (e) => {
+          e.stopPropagation();
+          langBtn.textContent = opt.textContent;
+          langSlider.style.display = "none";
+        };
+      });
+    }
+
+    // ===== CLICK OUTSIDE CLOSE =====
+    document.addEventListener("click", () => {
+      if (categorySlider) categorySlider.style.display = "none";
+      if (langSlider) langSlider.style.display = "none";
+    });
+  });
+  </script>
+</body>
+</html>
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
